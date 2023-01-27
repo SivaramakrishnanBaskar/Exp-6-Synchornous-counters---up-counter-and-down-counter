@@ -22,9 +22,7 @@ Starting with four J-K flip-flops connected in such a way to always be in the �
 
 The Q outputs of each flip-flop will serve as the respective binary bits of the final, four-bit count:
 
-Four-bit “Up” Counter
-
-image
+![Screenshot (115)](https://user-images.githubusercontent.com/119476322/215180323-4a88c8ae-886d-4ee5-a12f-6696c5154cf7.png)
 
 # DOWN COUNTER
 
@@ -32,9 +30,8 @@ As well as counting “up” from zero and increasing or incrementing to some pr
 
 This type of counter is normally referred to as a Down Counter, (CTD). In a binary or BCD down counter, the count decreases by one for each external clock pulse from some preset value. Special dual purpose IC’s such as the TTL 74LS193 or CMOS CD4510 are 4-bit binary Up or Down counters which have an additional input pin to select either the up or down count mode.
 
-image
-
-4-bit Count Down Counter
+![Screenshot (116)](https://user-images.githubusercontent.com/119476322/215180432-12ef6986-c5fc-41a7-96fa-36d9455bfac0.png)
+4-bit Count Down Counter 
 
 # Procedure
 ```
@@ -85,21 +82,21 @@ endmodule
 
 # RTL LOGIC UP COUNTER AND DOWN COUNTER
 
-image
+![Screenshot (117)](https://user-images.githubusercontent.com/119476322/215180663-8d50dc71-e495-4a81-b06b-28469b4c4ec7.png)
 
-image
 # TIMING DIGRAMS FOR COUNTER
 
-image
+![Screenshot (118)](https://user-images.githubusercontent.com/119476322/215180734-47b211bf-da57-4841-b800-33912e7dc7ac.png)
 
-image
 # TRUTH TABLE
 
 # UP COUNTER:
 
-image
+![Screenshot (119)](https://user-images.githubusercontent.com/119476322/215181024-c5330d77-6b82-4353-b66b-a9d1dac9e668.png)
+
 # DOWN COUNTER:
 
-image
+![Screenshot (120)](https://user-images.githubusercontent.com/119476322/215180887-abaeed89-1bb6-46fb-9b25-99592ad094b4.png)
+
 # RESULTS
 Thus,design of up counter and down counter and to verify its truth table in Quartus using Verilog programming is executed successfully
