@@ -2,9 +2,11 @@
 
 # AIM: To implement 4 bit up and down counters and validate functionality.
 
-# HARDWARE REQUIRED: – PC, Cyclone II , USB flasher
+# HARDWARE REQUIRED: –
+ PC, Cyclone II , USB flasher
 
-# SOFTWARE REQUIRED: Quartus prime
+# SOFTWARE REQUIRED: 
+ Quartus prime
 
 # THEORY
 
@@ -45,13 +47,14 @@ This type of counter is normally referred to as a Down Counter, (CTD). In a bina
 ```
 
 # PROGRAM
-
+```
 Program for flipflops and verify its truth table in quartus using Verilog programming.
 
 Developed by: Sivaramakrishnan B
 
 RegisterNumber: 22006798
-
+```
+# UP COUNTER:-
 ```
 module uc(input clk,input reset,output[0:3]counter);
 reg[0:3] counter_up;
@@ -64,9 +67,9 @@ counter_up<=counter_up+4'd1;
 end
 assign counter=counter_up;
 endmodule
-
-DOWN COUNTER:-
-
+```
+# DOWN COUNTER:-
+```
 module dc(input clk,input reset,output[0:3]counter);
 reg[0:3] counter_down;
 always@(posedge clk or posedge reset)
